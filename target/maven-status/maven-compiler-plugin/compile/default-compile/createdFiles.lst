@@ -1,0 +1,5 @@
+com\luisu404\screenmatch\ScreenmatchApplication.class
+com\luisu404\screenmatch\model\DatosSerie.class
+com\luisu404\screenmatch\service\ConsumoAPI.class
+com\luisu404\screenmatch\service\ConvierteDatos.class
+com\luisu404\screenmatch\service\IConvierteDatos.class
