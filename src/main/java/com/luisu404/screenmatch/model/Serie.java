@@ -114,6 +114,10 @@ public class Serie {
         this.episodios = episodios;
     }
 
+    public List<Episodio> getEpisodios() {
+        return episodios;
+    }
+
     @Override
     public String toString() {
         return

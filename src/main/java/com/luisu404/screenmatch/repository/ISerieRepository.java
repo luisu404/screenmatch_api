@@ -1,5 +1,7 @@
 package com.luisu404.screenmatch.repository;
 
+import com.luisu404.screenmatch.dto.EpisodioDTO;
+import com.luisu404.screenmatch.dto.SerieDTO;
 import com.luisu404.screenmatch.model.Categoria;
 import com.luisu404.screenmatch.model.Episodio;
 import com.luisu404.screenmatch.model.Serie;
@@ -25,5 +27,12 @@ public interface ISerieRepository extends JpaRepository<Serie, Long> {
 
     @Query("select e from Serie s join s.episodios e where s = :serie order by e.evaluacion desc limit 5")
     List<Episodio> top5Episodios(Serie serie);
+
+    @Query("select s from Serie s join s.episodios e group by s order by max(e.fechaLanzamiento) desc limit 5")
+    List<Serie> ultimosLanzamientos();
+
+    @Query("select e from Serie s join s.episodios e where s.id = :id and e.temporada = :numeroTemporada")
+    List<Episodio> obtenerTemporadasPorNumero(Long id, Long numeroTemporada);
+
 
 }

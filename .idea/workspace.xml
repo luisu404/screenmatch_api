@@ -4,19 +4,37 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3f93b926-c38c-40f8-997b-48058b2b3f5f" name="Changes" comment="" />
+    <list default="true" id="3f93b926-c38c-40f8-997b-48058b2b3f5f" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/luisu404/screenmatch/config/CorsConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/luisu404/screenmatch/controller/SerieController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/luisu404/screenmatch/dto/EpisodioDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/luisu404/screenmatch/dto/SerieDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/luisu404/screenmatch/service/SerieService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/luisu404/screenmatch/ScreenmatchApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/luisu404/screenmatch/ScreenmatchApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/luisu404/screenmatch/model/Serie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/luisu404/screenmatch/model/Serie.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/luisu404/screenmatch/repository/ISerieRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/luisu404/screenmatch/repository/ISerieRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/luisu404/screenmatch/ScreenmatchApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/luisu404/screenmatch/ScreenmatchApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/luisu404/screenmatch/model/Serie.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/luisu404/screenmatch/model/Serie.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/luisu404/screenmatch/repository/ISerieRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/luisu404/screenmatch/repository/ISerieRepository.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Record" />
         <option value="Enum" />
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
+        <option value="Record" />
       </list>
     </option>
   </component>
@@ -29,12 +47,12 @@
     &quot;assignee&quot;: &quot;luisu404&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/luisu404/screenmatch_alura.git&quot;,
-    &quot;accountId&quot;: &quot;a47f28a4-271a-4aaa-89db-f731e33df7c7&quot;
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/luisu404/screenmatch_api.git",
+    "accountId": "a47f28a4-271a-4aaa-89db-f731e33df7c7"
   }
-}</component>
+}]]></component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
@@ -66,7 +84,9 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "full.screen.before.presentation.mode": "false",
+    "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/el-di/OneDrive/Desktop/Cursos/Curso Alura Latam/Etapa 2 - Backend/JavaPrograms/screenmatch_api",
@@ -74,7 +94,7 @@
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
     "run.code.analysis.last.selected.profile": "pProject Default",
-    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
+    "settings.editor.selected.configurable": "project.propCompiler"
   }
 }]]></component>
   <component name="RecentsManager">
